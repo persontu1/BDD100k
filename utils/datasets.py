@@ -133,7 +133,7 @@ class BDD100k(Dataset):
         self.img_shape = (img_size, img_size)
         self.max_objects = 50
         self.set = dict()
-        
+
         for i, info in enumerate(self.img_infos):
             info = info[:-1]
             info = info.split(' ')
